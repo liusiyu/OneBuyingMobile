@@ -16,13 +16,19 @@
 
 <body>
     <!--导航-->
-    <nav class="navbar navbar-light bg-faded">
-        <a href="#" class="navbar-brand">icon</a>
-        <form class="form-inline navbar-form input-group">
-            <input type="text" class="form-control " placeholder="search" />
-            <span class="input-group-addon">icon</span>
-        </form>
-        <img src="#" />
+    <nav class="navbar navbar-light bg-faded container header">
+        <div class="col-xs-1 icon-logo-box">
+            <img class="icon-logo" src="images/home-logo.png">
+        </div>
+        <div class="col-xs-10">
+            <form class="form-inline navbar-form input-group searchbar">
+                <input type="text" class="form-control " placeholder="search" />
+                <span class="input-group-addon"><img src="images/icon-search.png"></span>
+            </form>
+        </div>
+        <div class="col-xs-1 icon-logo-box">
+            <img src="images/icon-share.png" class="icon-share" />
+        </div>
     </nav>
     <!--轮播图-->
     <div id="idxCarousel" class="carousel carousel-item" data-ride="carousel">
@@ -33,86 +39,82 @@
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-                <img src="#" />
+                <img src="images/img-macbook1.png" />
             </div>
             <div class="carousel-item ">
-                <img src="#" />
+                <img src="images/img-macbook2.png" />
             </div>
             <div class="carousel-item ">
-                <img src="#" />
+                <img src="images/img-macbook3.png" />
             </div>
         </div>
     </div>
     <!--内容-->
-    <div class="container-fluid">
+    <div class="container">
         <!--滚动广播-->
         <div class="row">
-            <img src="#" /> Some Text
+            <img src="images/icon-broadcast.png" class="icon" /> Some Text
         </div>
         <!--内容导航-->
-        <div class="row">
-            <div class="col-xs-4">
-                <img src="#" />
+        <div class="row idx-nav">
+            <div class="col-xs-3">
+                <img src="images/nav-new.png" />
             </div>
-            <div class="col-xs-4 ">
-                <img src="#" />
+            <div class="col-xs-3 ">
+                <img src="images/nav-ten.png" />
             </div>
-            <div class="col-xs-4 ">
-                <img src="#" />
+            <div class="col-xs-3 ">
+                <img src="images/nav-huan.png" />
             </div>
-            <div class="col-xs-4 ">
-                <img src="#" />
+            <div class="col-xs-3 ">
+                <img src="images/nav-issue.png" />
             </div>
         </div>
         <!--标签页-->
         <div class="row">
-            <ul class="nav nav-tabs" role="tablist">
-                <li class="nav-item">
+            <ul class="nav" role="tablist">
+                <li class="nav-item col-xs-3">
                     <a class="nav-link active" href="#human" role="tab " data-toggle="tab">人气</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item col-xs-3">
                     <a class="nav-link " href="#new" role="tab" data-toggle="tab">最新</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item col-xs-3">
                     <a class="nav-link " href="#progress" role="tab" data-toggle="tab">进度</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#need" role="tab " data-toggle="tab">总需人次<span>icon</span></a>
+                <li class="nav-item col-xs-3">
+                    <a class="nav-link" href="#need" role="tab " data-toggle="tab">总需人次<img src="images/icon-angle-up.png" class="icon-small"></a>
                 </li>
             </ul>
         </div>
         <div class="row">
             <div class="tab-content">
-                <div class="tab-pane active" id="human">
+                <div class="tab-pane active idx-box" id="human">
                     <div class="col-xs-6">
                         <div class="card">
-                            <img class="card-img-top" src="#" />
+                            <img class="card-img-top img-responsive" src="images/img-iphone.png" />
                             <div class="card-block">
-                                <p>
-                                    <progress class="progress" value="10" max="100">10%</progress>
-                                </p>
-                                <p>
-                                    <div class="col-xs-6">开发进度</div>
+                                <progress class="progress" value="10" max="100"></progress>
+                                <div class="row">
+                                    <div class="col-xs-6 win-progress">开奖进度<span>10%</span></div>
                                     <div class="col-xs-6">
-                                        <button type="button" class="btn btn-sm">加入清单</button>
+                                        <button type="button" class="btn btn-sm btn-add pull-right">加入清单</button>
                                     </div>
-                                </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-6">
                         <div class="card">
-                            <img class="card-img-top" src="#" />
+                            <img class="card-img-top img-responsive" src="images/img-iphone.png" class="img-responsive" />
                             <div class="card-block">
-                                <p>
-                                    <progress class="progress " value="10" max="100">10%</progress>
-                                </p>
-                                <p>
-                                    <div class="col-xs-6">开发进度</div>
+                                <progress class="progress" value="10" max="100"></progress>
+                                <div class="row">
+                                    <div class="col-xs-6 win-progress">开奖进度<span>10%</span></div>
                                     <div class="col-xs-6">
-                                        <button type="button" class="btn btn-sm">加入清单</button>
+                                        <button type="button" class="btn btn-sm btn-add pull-right">加入清单</button>
                                     </div>
-                                </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -124,30 +126,38 @@
         </div>
     </div>
     <!--底部-->
-    <nav class=" ">
-        <ul class="nav nav navbar-fixed-bottom nav-justified ">
-            <li class="active ">
-                <p><img src="#" /></p>
-                <p>抢购</p>
-            </li>
-            <li>
-                <p><img src="#" /></p>
-                <p>分类</p>
-            </li>
-            <li>
-                <p><img src="#" /></p>
-                <p>晒单</p>
-            </li>
-            <li>
-                <p><img src="#" /></p>
-                <p>清单</p>
-            </li>
-            <li>
-                <p><img src="#" /></p>
-                <p>我的</p>
-            </li>
-        </ul>
-    </nav>
+    <ul class="nav-bar">
+        <li class="col-20pct active">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar1-active.png" class="tab-icon">
+            </div>
+            <span class="ft-red">抢购</span>
+        </li>
+        <li class="col-20pct">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar2-default.png"  class="tab-icon">
+            </div>
+            <span>分类</span>
+        </li>
+        <li class="col-20pct">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar3-default.png"  class="tab-icon">
+            </div>
+            <span>晒单</span>
+        </li>
+        <li class="col-20pct">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar4-default.png"  class="tab-icon">
+            </div>
+            <span>清单</span>
+        </li>
+        <li class="col-20pct">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar5-default.png"  class="tab-icon">
+            </div>
+            <span>我的</span>
+        </li>
+    </ul>
     <!-- jQuery first, then Bootstrap JS. -->
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.js"></script>
