@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="x-ua-compatible " content="ie=edge ">
+    <title>我的购物车</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--导航-->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand">icon</a> 我的购物车
+        </div>
+    </nav>
+    <!--商品列表-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-1">
+                <input type="checkbox" checked>
+            </div>
+            <div class="col-xs-3">
+                <img src="#" class="img-responsive">
+            </div>
+            <div class="col-xs-8">
+                <p>iPhone6 Plus 5.5英寸 128G</p>
+                <p>积分<span>1000</span></p>
+                <div class="input-group">
+                    <span class="input-group-btn">
+                        <button type="button" class="btn"><i class="fa fa-minus"></i></button>
+                    </span>
+                    <input type="tel" class="form-control">
+                    <span class="input-group-btn">
+                        <button type="button" class="btn"><i class="fa fa-plus"></i></button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底栏-->
+    <div class="container navbar-fixed-bottom">
+        <div class="row">
+            <div class="col-xs-7">
+                总计<span>1000</span> 积分余额<span>2000</span>
+            </div>
+            <div class="col-xs-4">
+                <button type="button" class="btn btn-secondary">立即兑换</button>
+            </div>
+            <div class="col-xs-1">
+                <button type="button" class="btn btn-secondary">删除</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+    $(function() {
+        $('.carousel').carousel({
+            //some option
+        });
+        //others
+    })
+    </script>
+</body>
+
+</html>
