@@ -16,83 +16,91 @@
 
 <body>
     <!--导航-->
-    <nav class="navbar navbar-light bg-faded">
-        <a href="#" class="navbar-brand">icon</a> 我的换购
-        <img src="#" />
+    <nav class="navbar container header">
+        <div class="col-xs-1 icon-logo-box">
+            <a href="#"><img class="icon" src="images/go-back.png"></a>
+        </div>
+        <div class="col-xs-10 header-title">
+            我的换购
+        </div>
+        <div class="col-xs-1 icon-logo-box">
+            <img src="images/icon-share.png" class="icon-share2" />
+        </div>
     </nav>
     <!--banner-->
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-xs-12">
-                <img src="#" class="img-responsive">
-            </div>
+            <img src="images/img-banner.png" class="img-responsive">
         </div>
-        <div class="row">
-            <div class="col-xs-12">我的积分2000</div>
+        <div class="row ">
+            <div class="col-xs-12 exchange-list">我的积分2000</div>
         </div>
     </div>
     <!--内容-->
-    <div class="container-fluid">
-        <div class="row">
+    <div class="container">
+        <div class="row idx-box">
             <div class="col-xs-6">
                 <div class="card">
-                    <img class="card-img-top" src="#" />
+                    <img class="card-img-top img-responsive" src="images/img-iphone.png" />
                     <div class="card-block">
-                        <p>
-                            <progress class="progress" value="10" max="100">10%</progress>
-                        </p>
-                        <p>
-                            <div class="col-xs-6">金币6000</div>
+                        <progress class="progress" value="10" max="100"></progress>
+                        <div class="row">
+                            <div class="col-xs-6">金币 <span class="ft-red">600</span></div>
                             <div class="col-xs-6">
-                                <button type="button" class="btn btn-sm">立即换购</button>
+                                <button type="button" class="btn btn-sm btn-add pull-right">立即换购</button>
                             </div>
-                        </p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-xs-6">
                 <div class="card">
-                    <img class="card-img-top" src="#" />
+                    <img class="card-img-top img-responsive" src="images/img-iphone.png" class="img-responsive" />
                     <div class="card-block">
-                        <p>
-                            <progress class="progress " value="10" max="100">10%</progress>
-                        </p>
-                        <p>
-                            <div class="col-xs-6">金币6000</div>
+                        <progress class="progress" value="10" max="100"></progress>
+                        <div class="row">
+                            <div class="col-xs-6">金币 <span class="ft-red">600</span></div>
                             <div class="col-xs-6">
-                                <button type="button" class="btn btn-sm">立即换购</button>
+                                <button type="button" class="btn btn-sm btn-add pull-right">立即换购</button>
                             </div>
-                        </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--底部-->
-    <nav class=" ">
-        <ul class="nav nav navbar-fixed-bottom nav-justified ">
-            <li class="active ">
-                <p><img src="#" /></p>
-                <p>抢购</p>
-            </li>
-            <li>
-                <p><img src="#" /></p>
-                <p>分类</p>
-            </li>
-            <li>
-                <p><img src="#" /></p>
-                <p>晒单</p>
-            </li>
-            <li>
-                <p><img src="#" /></p>
-                <p>清单</p>
-            </li>
-            <li>
-                <p><img src="#" /></p>
-                <p>我的</p>
-            </li>
-        </ul>
-    </nav>
+    <ul class="nav-bar">
+        <li class="col-20pct active">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar1-active.png" class="tab-icon">
+            </div>
+            <span class="ft-red">抢购</span>
+        </li>
+        <li class="col-20pct">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar2-default.png" class="tab-icon">
+            </div>
+            <span>分类</span>
+        </li>
+        <li class="col-20pct">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar3-default.png" class="tab-icon">
+            </div>
+            <span>晒单</span>
+        </li>
+        <li class="col-20pct">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar4-default.png" class="tab-icon">
+            </div>
+            <span>清单</span>
+        </li>
+        <li class="col-20pct">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar5-default.png" class="tab-icon">
+            </div>
+            <span>我的</span>
+        </li>
+    </ul>
     <!-- jQuery first, then Bootstrap JS. -->
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.js"></script>

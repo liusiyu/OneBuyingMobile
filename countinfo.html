@@ -1,58 +1,67 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 
-	<head>
-		<!-- Required meta tags always come first -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<meta http-equiv="x-ua-compatible " content="ie=edge ">
-		<title>计算详情</title>
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/base.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css.css">
-	</head>
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="x-ua-compatible " content="ie=edge ">
+    <title>计算详情</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css.css">
+    <style>
+    body {
+        background: #f0f0f0;
+    }
+    </style>
+</head>
 
-	<body>
-		<!--导航-->
-		<nav class="navbar">
-			<a href="#" class="navbar-brand">icon</a>
-			<div class="container">
-				分类浏览
-			</div>
-		</nav>
-<!--内容-->
-<div class="container">
-	<div class="row">
-		<div class="col-xs-12">
-			<p>计算公式</p>
-			<p>[(数值+数值B)÷商品所需人次]取余数+10000</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">
-			<h4>数值A</h4>
-			<p>=截止该商品开奖时间点前最后50条全站参与记录</p>
-			<p>=<span class="">8888</span></p>
-		</div>
-		<div class="col-xs-12">
-			<h4>数值B</h4>
-			<p>=最近一期中国福利彩票“老时时彩”的开奖结果</p>
-			<p>=<span class="">正在等待开奖...</span>(第20150901061期)<a href="#">开奖查询</a></p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-6">
-			计算结果：<span class="active">这里是结果</span>
-		</div>
-		<div class="col-xs-6">
-			幸运号码：<span class="">等待揭晓..</span>
-		</div>
-	</div>
-</div>
-		<!-- jQuery first, then Bootstrap JS. -->
-		<script src="js/jquery-2.1.4.min.js"></script>
-		<script src="js/bootstrap.js"></script>
-	</body>
+<body>
+    <!--导航-->
+    <nav class="navbar navbar-light bg-faded container header">
+        <div class="col-xs-1 icon-logo-box">
+            <a href="#"><img class="icon" src="images/go-back.png"></a>
+        </div>
+        <div class="col-xs-10 header-title">
+            计算详情
+        </div>
+        <div class="col-xs-1 icon-logo-box">
+        </div>
+    </nav>
+    <!--内容-->
+    <div class="container">
+        <div class="row padding10">
+            <div class="col-xs-12 count-formula">
+                <p class="size14">计算公式</p>
+                <p>[(数值+数值B)÷商品所需人次]取余数+10000</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 count-list">
+                <h5>数值A</h5>
+                <p>=截止该商品开奖时间点前最后50条全站参与记录</p>
+                <p>=<span class="ft-red">8888</span></p>
+            </div>
+            <div class="col-xs-12 count-list margin-top-less1">
+                <h5>数值B</h5>
+                <p>=最近一期中国福利彩票“老时时彩”的开奖结果</p>
+                <p>=<span class="ft-yellow">正在等待开奖...</span>(第20150901061期) <a href="#" class="fr-blue">开奖查询</a></p>
+            </div>
+        </div>
+        <div class="row count-list2">
+            <div class="col-xs-6">
+                计算结果：<span class="active">这里是结果</span>
+            </div>
+            <div class="col-xs-6">
+                幸运号码：<span class="ft-yellow">等待揭晓..</span>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
 
 </html>

@@ -1,66 +1,88 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 
-	<head>
-		<!-- Required meta tags always come first -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<meta http-equiv="x-ua-compatible " content="ie=edge ">
-		<title>支付订单</title>
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/base.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-	</head>
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="x-ua-compatible " content="ie=edge ">
+    <title>支付订单</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <style>
+    body {
+        background: #f0f0f0;
+    }
+    </style>
+</head>
 
-	<body>
-		<!-- 内容 -->
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					奖品合计<span>10金币<i class="fa fa-angle-down"></i></span>
-				</div>	
-			</div>
-			<div class="row">
-				<div class="col-xs-12">
-					红包抵扣<span>无可用</span>
-				</div>	
-			</div>
-			<div class="row">
-				<div class="col-xs-12">
-					余额支付<span>(余额:<span>0</span>金币)</span>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12">
-					其他支付方式<span>10金币</span><i class="fa fa-angle-down"></i>
-					<div class="radio">
-						<label>
-							<input type="radio" value="option1">支付宝
-						</label>
-					</div>
-					<div class="radio">
-						<label>
-							<input type="radio" value="option2">微信支付
-						</label>
-					</div>
-					<div class="radio">
-						<label>
-							<input type="radio" value="option3">银联
-						</label>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12">
-					<button type="button" class="btn btn-secondary btn-block">确认充值</button>
-				</div>
-			</div>
-		</div>
-
-		<!-- jQuery first, then Bootstrap JS. -->
-		<script src="js/jquery-2.1.4.min.js"></script>
-		<script src="js/bootstrap.js"></script>
-	</body>
+<body>
+    <nav class="navbar navbar-light bg-faded container header">
+        <div class="col-xs-1 icon-logo-box">
+            <a href="#"><img class="icon" src="images/go-back.png"></a>
+        </div>
+        <div class="col-xs-10 header-title">
+            支付订单
+        </div>
+        <div class="col-xs-1 icon-logo-box">
+        </div>
+    </nav>
+    <!-- 内容 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 pay-list">
+                奖品合计<span class="pull-right ft-red">10金币 <i class="fa fa-angle-down ft-32"></i></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 pay-list margin-top10">
+                红包抵扣<span class="pull-right">无可用</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 pay-list">
+                余额支付<span>(余额:<span>0</span>金币)</span>
+            </div>
+        </div>
+        <div class="row">
+            <div id="payWay" role="tablist">
+                <div class="panel panel-default">
+                    <div class="panel-heading pay-list" role="tab" id="headOne">
+                        <h5 class="panel-title">
+        					<a href="#collapseOne" data-toggle="collapse" data-parent="#payWay" aria-expanded="true" aria-controls="collapseOne">其他支付方式<span class="ft-red pull-right">10金币 <i class="fa fa-angle-down ft-32"></i></span></a>
+        				</h5>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in pay-way" role="tab-panel" aria-labelledby="headOne">
+                        <div class="radio pay-list">
+                            <label>
+                                <input type="radio" name="pay" value="option1"> 支付宝
+                            </label>
+                        </div>
+                        <div class="radio pay-list">
+                            <label>
+                                <input type="radio" name="pay" value="option2"> 微信支付
+                            </label>
+                        </div>
+                        <div class="radio pay-list">
+                            <label>
+                                <input type="radio" name="pay" value="option3"> 银联
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <button type="button" class="btn btn-secondary btn-block color-red ft-white margin-top20">确认充值</button>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
 
 </html>

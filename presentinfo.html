@@ -1,132 +1,130 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 
-	<head>
-		<!-- Required meta tags always come first -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<meta http-equiv="x-ua-compatible " content="ie=edge ">
-		<title>奖品详情</title>
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/base.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-	</head>
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="x-ua-compatible " content="ie=edge ">
+    <title>奖品详情</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <style>
+    body {
+        background: #f0f0f0;
+    }
+    </style>
+</head>
 
-	<body>
-		<!--导航-->
-		<nav class="navbar">
-			<div class="container">
-				<a href="#" class="navbar-brand">icon</a> 奖品详情
-				<a class="pull-right">icon</a>
-			</div>
-		</nav>
-		<!--轮播图-->
-		<div id="carousel" class="carousel slide">
-			<ol class="carousel-indicators">
-				<li class="active"></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ol>
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="#" class="img-responsive" />
-				</div>
-				<div class="carousel-item">
-					<img src="#" class="img-responsive" />
-				</div>
-				<div class="carousel-item">
-					<img src="#" class="img-responsive" />
-				</div>
-				<div class="carousel-item">
-					<img src="#" class="img-responsive" />
-				</div>
-			</div>
-		</div>
-		<!--内容-->
-		<div class="container">
-			<ul class="list-group">
-				<li class="list-group-item">
-					<span class="">倒计时</span>
-					<h4>（第100期）这里是标题<span class="">产品名称</span></h4>
-				</li>
-				<li class="list-group-item">
-					揭晓倒计时：<span>04:46:95</span>
-					<a href="#" class="pull-right">订单详情</a>
-				</li>
-				<li class="list-group-item">
-					您没有参与本期夺宝哦！
-				</li>
-			</ul>
-			<div class="list-group">
-				<a class="list-group-item">
+<body>
+    <!--导航-->
+    <nav class="navbar navbar-light bg-faded container header">
+        <div class="col-xs-1 icon-logo-box">
+            <a href="#"><img class="icon" src="images/go-back.png"></a>
+        </div>
+        <div class="col-xs-10 header-title">
+            奖品详情
+        </div>
+        <div class="col-xs-1 icon-logo-box">
+            <img src="images/icon-share.png" class="icon-share2" />
+        </div>
+    </nav>
+    <!--轮播图-->
+    <div id="idxCarousel" class="carousel carousel-item" data-ride="carousel">
+        <ol class=" carousel-indicators">
+            <li data-targer="#idxCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#idxCarousel" data-slide-to="1"></li>
+            <li data-target="#idxCaroesel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img src="images/img-macbook1.png" />
+            </div>
+            <div class="carousel-item ">
+                <img src="images/img-macbook2.png" />
+            </div>
+            <div class="carousel-item ">
+                <img src="images/img-macbook3.png" />
+            </div>
+        </div>
+    </div>
+    <!--内容-->
+    <div class="container">
+        <ul class="list-group">
+            <li class="list-group-item present-list">
+                <h5 class="present-title">
+                	<span class="present-badge ft-yellow">倒计时</span>（第100期）这里是标题<span class="ft-red">产品名称</span>
+                </h5>
+            </li>
+            <li class="list-group-item present-count">
+                揭晓倒计时：<span>04:46:95</span>
+                <a href="#" class="pull-right">订单详情</a>
+            </li>
+            <li class="list-group-item present-list present-tips">
+                <p>
+                    您没有参与本期夺宝哦！
+                </p>
+            </li>
+        </ul>
+        <div class="list-group margin-top10">
+            <a class="list-group-item present-list" href="#">
 				图文详情
-				<span class="pull-right">建议在Wifi下查看<i class="fa fa-angle-right"></i></span>
+				<span class="pull-right time-tips">建议在Wifi下查看 <i class="fa fa-angle-right"></i></span>
 			</a>
-				<a class="list-group-item">
+            <a class="list-group-item present-list" href="#">
 				往期揭晓<i class="fa fa-angle-right pull-right"></i>
 			</a>
-				<a class="list-group-item">
+            <a class="list-group-item present-list" href="#">
 				晒单分享<i class="pull-right fa fa-angle-right"></i>
 			</a>
-			</div>
-			<div class="row">
-				<span class="">所有参与记录</span>
-				<span class="pull-right">（2015-08-16 12:16:20开始）</span>
-			</div>
-			<div class="row">
-				<span>2015.09.01</span>
-				<div class="">line</div>
-			</div>
-			<div class="media">
-				<a href="#" class="media-left">
-					<img src="#" class="img-responsive img-circle" />
-				</a>
-				<div class="media-body">
-					<h4 class="media-heading">User ID</h4>
-					<p>(北京市北京市 IP：162.168.1.1)</p>
-					<p>参与了<span class="">44</span>人次 2015-09-01 16:08:50</p>
-				</div>
-			</div>
-			<div class="media">
-				<a href="#" class="media-left">
-					<img src="#" class="img-responsive img-circle" />
-				</a>
-				<div class="media-body">
-					<h4 class="media-heading">User ID</h4>
-					<p>(北京市北京市 IP：162.168.1.1)</p>
-					<p>参与了<span class="">44</span>人次 2015-09-01 16:08:50</p>
-				</div>
-			</div>
-		</div>
-<!--底栏-->
-<div class="container navbar-fixed-bottom">
-	<div class="row">
-		<div class="col-xs-11">
-			<div class="col-xs-6">
-				<button type="button" class="btn btn-block">立即参与</button>
-			</div>
-			<div class="col-xs-6">
-				<button type="button" class="btn btn-block">加入清单</button>
-			</div>
-		</div>
-		<a class="col-xs-1">
-			<i class="fa fa-shopping-cart"></i>
-			<span class="">2</span>
-		</a>
-	</div>
-</div>
-		<script src="js/jquery-2.1.4.min.js"></script>
-		<script src="js/bootstrap.js"></script>
-		<script>
-			$(function() {
-				$('.carousel').carousel({
-					//some option
-				});
-				//others
-			})
-		</script>
-	</body>
+			<a class="list-group-item present-list margin-top10">
+				所有参与记录<span class="pull-right time-tips">（2015-08-16 12:16:20开始）</span>
+			</a>
+        </div>
+    </div>
+    <div class="container present-container">
+        <div class="row">
+            <span class="badge-time">2015.09.01</span>
+        </div>
+        <div class="media">
+            <a href="#" class="media-left">
+                <img src="images/img-head.png" class="head-img img-circle" />
+            </a>
+            <div class="media-body">
+                <h5 class="media-heading user-id"><a class="ft-blue">张三</a></h5>
+                <p class="ft-99">(北京市北京市 IP：162.168.1.1)</p>
+                <p>参与了<span class="ft-red">44</span>人次 2015-09-01 16:08:50</p>
+            </div>
+        </div>
+        <div class="media">
+            <a href="#" class="media-left">
+                <img src="images/img-head.png" class="head-img img-circle" />
+            </a>
+            <div class="media-body">
+                <h5 class="media-heading user-id"><a class="ft-blue">张三</a></h5>
+                <p class="ft-99">(北京市北京市 IP：162.168.1.1)</p>
+                <p>参与了<span class="ft-red">44</span>人次 2015-09-01 16:08:50</p>
+            </div>
+        </div>
+    </div>
+    <!--底栏-->
+    <div class="container navbar-fixed-bottom present-bottom-bar">
+        <div class="row">
+        	<span class="present-bottom-text">第268期正在火热进行中</span><button type="button" class="btn red-btn pull-right">立即前往</button>
+        </div>
+    </div>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+    $(function() {
+        $('.carousel').carousel({
+            //some option
+        });
+        //others
+    })
+    </script>
+</body>
 
 </html>

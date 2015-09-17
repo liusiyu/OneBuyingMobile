@@ -10,29 +10,33 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/base.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
 	</head>
 
 	<body>
 		<!--导航-->
-		<nav class="navbar ">
-			<a href="#" class="navbar-brand">icon</a>
-			<div class="container ">
-				常见问题
-			</div>
-		</nav>
+    <nav class="navbar navbar-light bg-faded container header">
+        <div class="col-xs-1 icon-logo-box">
+            <a href="#"><img class="icon" src="images/go-back.png"></a>
+        </div>
+        <div class="col-xs-10 header-title">
+            常见问题
+        </div>
+        <div class="col-xs-1 icon-logo-box">
+        </div>
+    </nav>
 		<!--列表-->
 		<div class="container">
 			<div id="issuesList" role="tablist" aria-multiselectable="true">
 				<div class="panel panel-default ">
-					<div class="panel-heading " role="tab" id="headingOne ">
+					<div class="panel-heading issue-title" role="tab" id="headingOne ">
 						<h4 class="panel-title ">
 			          <a data-toggle="collapse" data-parent="#issuesList" href="#issueOne" aria-expanded="false" aria-controls="issueOne">
 			            1.怎样参加一元抢购？
 			          </a>
 			        </h4>
 					</div>
-					<div id="issueOne" class="panel-collapse collapse in " role="tabpanel" arialabelledby="headingOne">
+					<div id="issueOne" class="panel-collapse collapse in issue-info" role="tabpanel" arialabelledby="headingOne">
 						<p>免费注册登陆后就可以参与一元抢购了。</p>
 						<p><strong>参与方式：</strong></p>
 						<p>充值获得夺宝币，然后选择喜欢的商品开始夺宝；</p>
@@ -40,14 +44,14 @@
 					</div>
 				</div>
 				<div class="panel panel-default">
-					<div class="panel-heading" role="tab" id="headingTwo">
+					<div class="panel-heading issue-title" role="tab" id="headingTwo">
 						<h4 class="panel-title">
 	      			<a data-toggle="collapse" data-parent="#issueList" href="#issueTwo" aria-expanded="false" aria-controls="issueTwo">
 	      				2.一元抢购怎样计算幸运号码的？
 	      			</a>
 	      		</h4>
 					</div>
-					<div id="issueTwo" class="panel-collapse collapse" role="tabpanel" arialabelledby="headingTwo">
+					<div id="issueTwo" class="panel-collapse collapse issue-info" role="tabpanel" arialabelledby="headingTwo">
 						<p>免费注册登陆后就可以参与一元抢购了。</p>
 						<p><strong>参与方式：</strong></p>
 						<p>充值获得夺宝币，然后选择喜欢的商品开始夺宝；</p>
@@ -55,14 +59,14 @@
 					</div>
 				</div>
 				<div class="panel panel-default">
-					<div class="panel-heading" id="headingThree">
+					<div class="panel-heading issue-title" id="headingThree">
 						<h4 class="panel-title">
 	      			<a data-toggle="collapse" data-parent="#issueList" href="#issueThree" aria-expanded="false" aria-control="issueThree">
 	      				3.问题三
 	      			</a>
 	      		</h4>
 					</div>
-					<div id="issueThree" class="panel-collapse collapse" arialabelledby="headingThree">
+					<div id="issueThree" class="panel-collapse collapse issue-info" arialabelledby="headingThree">
 						<p>免费注册登陆后就可以参与一元抢购了。</p>
 						<p><strong>参与方式：</strong></p>
 						<p>充值获得夺宝币，然后选择喜欢的商品开始夺宝；</p>
