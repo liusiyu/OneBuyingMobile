@@ -15,59 +15,60 @@
 
 <body>
     <!--导航-->
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="navbar-brand">icon</a> 我的购物车
+    <nav class="navbar navbar-light bg-faded container header">
+        <div class="col-xs-1 icon-logo-box">
+            <a href="#"><img class="icon" src="images/go-back.png"></a>
+        </div>
+        <div class="col-xs-10 header-title">
+            奖品详情
+        </div>
+        <div class="col-xs-1 icon-logo-box">
         </div>
     </nav>
     <!--商品列表-->
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-1">
-                <input type="checkbox" checked>
+        <div class="row list-list">
+            <div class="col-xs-1 list-checkbox">
+                <input type="checkbox" class="" checked/>
             </div>
-            <div class="col-xs-3">
-                <img src="#" class="img-responsive">
+            <div class="col-xs-3 list-goods">
+                <img src="images/img-iphone2.png" class="img-responsive" />
             </div>
-            <div class="col-xs-8">
-                <p>iPhone6 Plus 5.5英寸 128G</p>
-                <p>积分<span>1000</span></p>
-                <div class="input-group">
+            <div class="col-xs-7 list-infobox pull-right">
+                <div class="list-title col-xs-12">(第100期)iPhone6 Plus 5.5英寸128G</div>
+                <div class="list-tips col-xs-12">积分<span class="ft-blue">5480人次</span></div>
+                <div class="input-group col-xs-6 list-btn-group">
                     <span class="input-group-btn">
-                        <button type="button" class="btn"><i class="fa fa-minus"></i></button>
-                    </span>
-                    <input type="tel" class="form-control">
+                            <button type="button" class="btn btn-secondary list-btn">
+                                <strong>-</strong>
+                            </button>
+                        </span>
+                    <input type="tel" class="form-control" />
                     <span class="input-group-btn">
-                        <button type="button" class="btn"><i class="fa fa-plus"></i></button>
-                    </span>
+                            <button type="button" class="btn btn-secondary list-btn">
+                                <strong>+</strong>
+                            </button>
+                        </span>
                 </div>
             </div>
         </div>
     </div>
     <!--底栏-->
     <div class="container navbar-fixed-bottom">
-        <div class="row">
-            <div class="col-xs-7">
+        <div class="row shop-bar">
+            <div class="col-xs-6">
                 总计<span>1000</span> 积分余额<span>2000</span>
             </div>
             <div class="col-xs-4">
-                <button type="button" class="btn btn-secondary">立即兑换</button>
+                <button type="button" class="btn btn-secondary btn-block">立即兑换</button>
             </div>
-            <div class="col-xs-1">
-                <button type="button" class="btn btn-secondary">删除</button>
+            <div class="col-xs-2">
+                <button type="button" class="btn btn-secondary btn-block">删除</button>
             </div>
         </div>
     </div>
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script>
-    $(function() {
-        $('.carousel').carousel({
-            //some option
-        });
-        //others
-    })
-    </script>
 </body>
 
 </html>

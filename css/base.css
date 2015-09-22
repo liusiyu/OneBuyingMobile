@@ -482,6 +482,14 @@ p{margin: 0;}
 .gift-convert{padding: 0;background: #dd2727;color: #fff;}
 .gift-convert button{padding: 9px;background: #dd2727;color: #fff;border-radius: 0;border: none;}
 
+/*购物车*/
+.shop-bar{background: #333333;font-size: 14px;color: #fff;padding: 0 0 0 8px;line-height: 36px;border-top: 1px solid #f0f0f0;}
+.shop-bar .col-xs-4,.col-xs-2{padding: 0;}
+.shop-bar .col-xs-4 button{border-radius: 0;background: #dd2727;color: #fff;border: none;}
+.shop-bar .col-xs-2 button{border: none;border-radius: 0;}
+
+
+
 
 
 
