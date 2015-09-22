@@ -473,9 +473,14 @@ p{margin: 0;}
 /*换购-奖品详情*/
 .gift-list{padding: 8px;border-bottom: 1px solid #f0f0f0;font-size: 16px;color: #323232;}
 .gift-list p{font-size: 14px; line-height: 26px;}
-.gigt-list p span{overflow: hidden;white-space: nowrap;text-overflow:ellipsis;}
-
-
+.gift-list p span{overflow: hidden;white-space: nowrap;text-overflow:ellipsis;}
+.gift-cart{padding: 5px 10px;background: #333;color: #fff;text-align: center;position: relative;}
+.gift-cart i{font-size: 30px;}
+.gift-badge{background: #dd2727;font-size: 10px;position: absolute;left: 50%;}
+.gift-add-cart{padding: 0;background: #222;color: #fff;}
+.gift-add-cart button{background:#222;color: #fff;border-radius: 0;border: none;font-weight: normal;font-size: 16px;padding: 9px;}
+.gift-convert{padding: 0;background: #dd2727;color: #fff;}
+.gift-convert button{padding: 9px;background: #dd2727;color: #fff;border-radius: 0;border: none;}
 
 
 
