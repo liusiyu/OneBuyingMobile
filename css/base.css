@@ -488,6 +488,20 @@ p{margin: 0;}
 .shop-bar .col-xs-4 button{border-radius: 0;background: #dd2727;color: #fff;border: none;}
 .shop-bar .col-xs-2 button{border: none;border-radius: 0;}
 
+/*确认订单*/
+.od-list{padding: 8px;border-bottom: 1px solid #f0f0f0;}
+
+.od-list .col-xs-12{font-weight: 500;font-size: 14px;color: #000;padding: 0 0 8px 0;}
+.od-list .col-xs-3,.col-xs-9,.col-xs-2,.col-xs-10{padding: 0;}
+.od-badge{color: #dd2727;border: 1px solid #dd2727;font-size: 14px;padding: 2px 4px;border-radius: 4px;}
+.od-title{overflow: hidden;white-space: nowrap;text-overflow:ellipsis;}
+.od-bar{background: #333;color: #fff;line-height: 20px;}
+.od-bar .col-xs-8{padding: 8px;}
+.od-bar .col-xs-4{padding: 0;}
+.od-bar .col-xs-4 button{color: #fff;background: #dd2727;border: none;border-radius: 0;}
+
+
+
 
 
 
