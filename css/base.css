@@ -509,7 +509,17 @@ p{margin: 0;}
 .cov-btn-box .col-xs-6{padding: 5px;}
 .cov-btn-box .col-xs-6:first-child button{color: #fff;background: #dd2727;}
 .cov-btn-box .col-xs-6:last-child button{color: #fff;background: #2daf3c;}
-/**/
+
+/*查看订单*/
+.view-list .col-xs-3,.col-xs-9{padding: 0;}
+.view-list{padding: 8px; font-size: 14px;color: #323232;border-bottom: 1px solid #f0f0f0;}
+
+
+
+
+
+
+
 
 
 
