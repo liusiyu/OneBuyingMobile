@@ -514,8 +514,14 @@ p{margin: 0;}
 .view-list .col-xs-3,.col-xs-9{padding: 0;}
 .view-list{padding: 8px; font-size: 14px;color: #323232;border-bottom: 1px solid #f0f0f0;}
 
-
-
+/*我的*/
+.icon-alert{width: 16px;margin-left: 8px;}
+.icon-setting{width: 20px;margin-left: -8px;}
+.user-bg{background: #dd2727;}
+.user-btn{background: #fff;color: #dd2727;padding: 5px;}
+.user-icon{height: 32px;display: inline-block;}
+.user-row a{text-align: center;padding: 0;border: 1px solid #f0f0f0;height:100px;line-height: 34px;padding: 20px 0;color: #323232;}
+.user-row a:focus{text-decoration: none;}
 
 
 

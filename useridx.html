@@ -15,56 +15,90 @@
 
 <body>
     <!--导航-->
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="navbar-brand">icon</a>
-            <a href="#">icon</a>
+    <nav class="navbar navbar-light bg-faded container header">
+        <div class="col-xs-1 icon-logo-box">
+            <img class="icon-alert" src="images/icon-alert.png">
+        </div>
+        <div class="col-xs-10">
+        </div>
+        <div class="col-xs-1 icon-logo-box">
+            <img src="images/icon-setting.png" class="icon-setting" />
         </div>
     </nav>
     <!--内容-->
-    <div class="container-fluid">
+    <div class="container">
         <!-- 头部 -->
-        <div class="row">
+        <div class="row user-bg">
             <div class="col-xs-2 col-xs-offset-5">
-                <img src="#" class="img-responsive img-circle">
+                <img src="images/img-head.png" class="img-responsive img-circle">
             </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-6 col-xs-offset-3">
-                <button type="button" class="btn btn-block">登陆</button>
+            <div class="col-xs-6 col-xs-offset-3 margin-top50 margin-bottom10">
+                <button type="button" class="btn btn-block user-btn">登陆</button>
             </div>
         </div>
         <!-- 六宫格 -->
-        <div class="row">
+        <div class="row user-row">
             <a href="#" class="col-xs-4">
-                <img src="#" class="">
+                <img src="images/icon-useridx1.png" class="user-icon">
                 <p>抢购记录</p>
             </a>
             <a href="#" class="col-xs-4">
-                <img src="#" class="">
+                <img src="images/icon-useridx2.png" class="user-icon">
                 <p>多期参与</p>
             </a>
             <a href="#" class="col-xs-4">
-                <img src="#" class="">
+                <img src="images/icon-useridx3.png" class="user-icon">
                 <p>中奖记录</p>
             </a>
         </div>
-        <div class="row">
+        <div class="row user-row">
             <a href="#" class="col-xs-4">
-                <img src="#" class="">
+                <img src="images/icon-useridx4.png" class="user-icon">
                 <p>我的晒单</p>
             </a>
             <a href="#" class="col-xs-4">
-                <img src="#" class="">
+                <img src="images/icon-useridx5.png" class="user-icon">
                 <p>我的积分</p>
             </a>
             <a href="#" class="col-xs-4">
-                <img src="#" class="">
+                <img src="images/icon-useridx6.png" class="user-icon">
                 <p>充值记录</p>
             </a>
         </div>
     </div>
-    <!-- 底栏 -->
+    <!--底部-->
+    <ul class="nav-bar">
+        <li class="col-20pct">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar1-default.png" class="tab-icon">
+            </div>
+            <span>抢购</span>
+        </li>
+        <li class="col-20pct">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar2-default.png" class="tab-icon">
+            </div>
+            <span>分类</span>
+        </li>
+        <li class="col-20pct">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar3-default.png" class="tab-icon">
+            </div>
+            <span>晒单</span>
+        </li>
+        <li class="col-20pct">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar4-default.png" class="tab-icon">
+            </div>
+            <span>清单</span>
+        </li>
+        <li class="col-20pct">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar5-active.png" class="tab-icon">
+            </div>
+            <span class="ft-red">我的</span>
+        </li>
+    </ul>
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.js"></script>
 </body>
