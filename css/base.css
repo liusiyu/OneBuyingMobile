@@ -522,8 +522,9 @@ p{margin: 0;}
 .user-icon{height: 32px;display: inline-block;}
 .user-row a{text-align: center;padding: 0;border: 1px solid #f0f0f0;height:100px;line-height: 34px;padding: 20px 0;color: #323232;}
 .user-row a:focus{text-decoration: none;}
-
-
+.user-id{text-align: center; padding: 5px 0;color: #fff}
+.user-id p{margin-top: 10px;}
+.user-id .user-coin{color: #ffff00;font-size: 18px;}
 
 
 
