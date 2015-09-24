@@ -15,24 +15,28 @@
 
 <body>
     <!--导航-->
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="navbar-brand">icon</a>
+    <nav class="navbar navbar-light bg-faded container header">
+        <div class="col-xs-1 icon-logo-box">
+            <a href="#"><img class="icon" src="images/go-back.png"></a>
+        </div>
+        <div class="col-xs-10 header-title">
             通知
+        </div>
+        <div class="col-xs-1 icon-logo-box">
         </div>
     </nav>
     <!--内容-->
     <div class="container">
         <!-- 头部 -->
-        <div class="row">
+        <a class="row notice-list" href="#">
             <div class="col-xs-11">
-                <h4>这里是通知标题</h4>
-                <p>2015-09-01 11:05:08</p>
+                <p class="notice-title">这里是通知标题</p>
+                <p class="notice-time">2015-09-01 11:05:08</p>
             </div>
             <div class="col-xs-1">
-                <i class="fa fa-angle-right fa-2x"></i>
+                <i class="fa fa-angle-right fa-2x notice-arrow"></i>
             </div>
-        </div>
+        </a>
     </div>
     <!-- 底栏 -->
     <script src="js/jquery-2.1.4.min.js"></script>

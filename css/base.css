@@ -527,6 +527,20 @@ p{margin: 0;}
 .user-id .user-coin{color: #ffff00;font-size: 18px;}
 
 /*通知*/
+.notice-list{border-bottom: 1px solid #f0f0f0;padding: 8px;display: block;color: #323232;}
+.notice-list:focus{text-decoration: none;color: #323232}
+.notice-list .col-xs-11,.col-xs-1{padding: 0;}
+.notice-title{font-size: 20px;font-weight: 600;}
+.notice-time{font-size: 12px;color: #646464;}
+.notice-arrow{padding: 8px;}
+
+
+
+
+
+
+
+
 
 
 
