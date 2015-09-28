@@ -15,38 +15,74 @@
 
 <body>
     <!--导航-->
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="navbar-brand">icon</a> 最新揭晓
+    <nav class="navbar navbar-light bg-faded container header">
+        <div class="col-xs-1 icon-logo-box">
+            <a href="#"><img class="icon" src="images/go-back.png"></a>
+        </div>
+        <div class="col-xs-10 header-title">
+            最新揭晓
+        </div>
+        <div class="col-xs-1 icon-logo-box">
         </div>
     </nav>
     <!--内容-->
-    <div class="container-fluid">
+    <div class="container pub-container">
         <div class="row">
-            <div class="col-xs-6">
-                <div class="card">
-                    <img src="#" class="card-img-top">
-                    <div class="card-block">
-                        <p>（第1000期）iPhone6 Plus省略号</p>
-                        <p>icon即将揭晓</p>
-                        <p>04:15:50</p>
+            <a class="col-xs-6">
+                <div class="card pub-card">
+                    <img src="images/img-iphone2.png" class="card-img-top img-responsive">
+                    <div class="card-block pub-block">
+                        <p class="pub-title">(第1000期）iPhone6 Plus省略号</p>
+                        <p class="ft-red"><img src="images/icon-clock.png" class="pub-icon">即将揭晓</p>
+                        <p class="pub-time">04:15:50</p>
                     </div>
                 </div>
-            </div>
-            <div class="col-xs-6">
-                <div class="card">
-                    <img src="#" class="card-img-top">
-                    <div class="card-block">
-                        <p>（第1000期）iPhone6 Plus省略号</p>
-                        <p>icon即将揭晓</p>
-                        <p>04:15:50</p>
+            </a>
+            <a class="col-xs-6">
+                <div class="card pub-card pub-card-right">
+                    <img src="images/img-iphone2.png" class="card-img-top img-responsive">
+                    <div class="card-block pub-block">
+                        <p class="pub-title">(第1000期）iPhone6 Plus省略号</p>
+                        <p class="ft-red"><img src="images/icon-clock.png" class="pub-icon">即将揭晓</p>
+                        <p class="pub-time">04:15:50</p>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
-    <!-- 底栏 -->
-    这里有底栏
+    <!--底部-->
+    <ul class="nav-bar">
+        <li class="col-20pct">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar1-default.png" class="tab-icon">
+            </div>
+            <span>抢购</span>
+        </li>
+        <li class="col-20pct">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar2-default.png" class="tab-icon">
+            </div>
+            <span>分类</span>
+        </li>
+        <li class="col-20pct">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar3-default.png" class="tab-icon">
+            </div>
+            <span>晒单</span>
+        </li>
+        <li class="col-20pct">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar4-default.png" class="tab-icon">
+            </div>
+            <span>清单</span>
+        </li>
+        <li class="col-20pct">
+            <div class="tab-bar-icon">
+                <img src="images/tab-bar5-active.png" class="tab-icon">
+            </div>
+            <span class="ft-red">我的</span>
+        </li>
+    </ul>
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.js"></script>
 </body>
