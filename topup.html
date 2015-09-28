@@ -15,22 +15,27 @@
 
 <body>
     <!--导航-->
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="navbar-brand">icon</a>充值
+    <nav class="navbar navbar-light bg-faded container header">
+        <div class="col-xs-1 icon-logo-box">
+            <a href="#"><img class="icon" src="images/go-back.png"></a>
+        </div>
+        <div class="col-xs-10 header-title">
+            充值
+        </div>
+        <div class="col-xs-1 icon-logo-box">
         </div>
     </nav>
     <!--内容-->
-    <div class="container-fluid">
+    <div class="container">
         <!-- 提示 -->
-        <div class="row">
-            <div class="col-xs-12">
+        <div class="row charge-tips-box">
+            <div class="col-xs-12 charge-tips">
                 充值获得金币（1元=1金币），可用于抢购，充值的款项将无法退回。
             </div>
         </div>
         <!-- 选择金额 -->
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-12 charge-title">
                 选择充值金额
             </div>
         </div>
@@ -53,25 +58,26 @@
         </div>
         <!-- 充值方式 -->
         <div class="row">
-            <div class="col-xs-12">
-                <div class="radio">
+            <div class="charge-title col-xs-12">选择充值方式</div>
+            <div class="col-xs-12 charge-way-box">
+                <div class="radio charge-way">
                     <label>
-                        <input type="radio" value="wechat">微信支付
+                        <input type="radio" name="pay" class="charge-radio" value="wechat" checked> 微信支付
                     </label>
                 </div>
-                <div class="radio">
+                <div class="radio charge-way">
                     <label>
-                        <input type="radio" value="alipay">支付宝
+                        <input type="radio" name="pay" class="charge-radio" value="alipay"> 支付宝
                     </label>
                 </div>
-                <div class="radio">
+                <div class="radio charge-way">
                     <label>
-                        <input type="radio" value="unionpay">银联
+                        <input type="radio" name="pay" class="charge-radio" value="unionpay"> 银联
                     </label>
                 </div>
             </div>
             <div class="col-xs-12">
-                <button type="button" class="btn btnblock">确认充值</button>
+                <button type="button" class="btn btn-block set-btn">确认充值</button>
             </div>
         </div>
     </div>

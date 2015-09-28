@@ -571,6 +571,19 @@ p{margin: 0;}
 .set-info{text-align: center;color: #323232;font-size: 12px;margin-top: 40px;padding:0;}
 .set-icon-zp{width: 16px;}
 
+/*充值*/
+.charge-tips-box{}
+.charge-tips{padding: 8px;background: #feb319;font-size: 14px;}
+.charge-title{background: #f0f0f0;padding: 4px 8px;font-size: 14px;}
+.charge-way-box{font-size: 14px;padding: 8px;}
+.charge-way{border-bottom: 1px solid #f0f0f0;padding-bottom: 8px;}
+.charge-radio{-webkit-appearance:none;width: 14px;height: 14px;border: 1px solid #e0e0e0;background: #fff;border-radius: 10px;}
+.charge-radio:checked{background: url(../images/icon-radio-green.png);background-size: 7px;background-position: center;background-repeat: no-repeat;}
+
+
+
+
+
 
 
 
