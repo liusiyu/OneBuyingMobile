@@ -17,6 +17,7 @@ a{text-decoration: none;}
 .ft-d5{color: #d5d5d5!important;}
 .ft-yellow{color: #ff9b00!important;}
 .ft-blue{color: #047bfe!important;}
+.ft-green{color: #5bc832!important;}
 .ft-red{color: #dd2727!important;}
 .ft-white{color: #fff!important;}
 
@@ -536,8 +537,17 @@ p{margin: 0;}
 .notice-content{color: #646464}
 .notifaction-list{padding: 10px;font-size: 14px;color: #646464}
 
-
-
+/*往期揭晓*/
+.past-body{background: #f0f0f0}
+.past-list-top{background: #fff;padding: 8px;color: #323232;font-size: 14px;}
+.past-list-top:focus{text-decoration: none;}
+.past-list-top .fa{font-size: 20px;}
+.past-list{background: #fff;margin-top: 10px!important;border-top: 1px solid #e0e0e0;border-bottom: 1px solid #e0e0e0; font-size: 14px;padding: 8px;}
+.past-list .col-xs-12{padding: 0;padding-bottom: 8px;font-size: 12px;}
+.past-list .past-dash{border-bottom: 1px dashed #e0e0e0; }
+.past-list .fa{font-size: 20px;}
+.past-list .media{margin-top: 8px;color: #999}
+.past-head{width: 45px;}
 
 
 

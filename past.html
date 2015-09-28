@@ -13,38 +13,43 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 
-<body>
+<body class="past-body">
     <!--导航-->
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="navbar-brand">icon</a>
+    <!--导航-->
+    <nav class="navbar navbar-light bg-faded container header">
+        <div class="col-xs-1 icon-logo-box">
+            <a href="#"><img class="icon" src="images/go-back.png"></a>
+        </div>
+        <div class="col-xs-10 header-title">
             往期揭晓
+        </div>
+        <div class="col-xs-1 icon-logo-box">
         </div>
     </nav>
     <!--内容-->
-    <div class="container-fluid">
+    <div class="container">
         <!-- 头部 -->
         <div class="row">
-            <a href="#" class="col-xs-12">
-                第268期<span>请稍后，正在揭晓...</span><i class="fa fa-angle-right fa-2x"></i>
+            <a href="#" class="col-xs-12 past-list-top">
+                第268期 <span class="ft-red"> 请稍后，正在揭晓...</span><i class="fa fa-angle-right pull-right"></i>
             </a>
         </div>
-        <a class="row">
-            <div class="col-xs-12">
-                第267期 揭晓时间：2015-09-10 15:00:00<i class="fa fa-angle-right fa-2x"></i>
+        <div class="row past-list">
+           <div href="" class="col-xs-12 past-dash">
+                第267期 揭晓时间：2015-09-10 15:00:00<i class="fa fa-angle-right pull-right"></i>
             </div>
-            <div class="media">
+            <div class="col-xs-12 media">
                 <a href="#" class="media-left">
-                    <img src="#" class="media-object">
+                    <img src="images/img-head.png" class="media-object past-head">
                 </a>
                 <div class="media-body">
-                    <p>获奖者：User ID（北京市北京市通州区）</p>
-                    <p>用户ID：123456(唯一不变标识)</p>
-                    <p>幸运号码：123456</p>
-                    <p>本期参与人数：200人次</p>
+                    <p>获奖者：<span class="ft-blue">User ID</span><span class="ft-green">（北京市北京市通州区）</span></p>
+                    <p>用户ID：<span class="ft-32">123456(唯一不变标识)</span></p>
+                    <p>幸运号码：<span class="ft-red">123456</span></p>
+                    <p>本期参与人数：<span class="ft-red">200人次</span></p>
                 </div>
             </div>  
-        </a>
+        </div>
     </div>
     <!-- 底栏 -->
     <script src="js/jquery-2.1.4.min.js"></script>
