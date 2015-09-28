@@ -558,8 +558,12 @@ p{margin: 0;}
 .pub-icon{width: 11px;margin-top: -2px;margin-right: 4px;}
 .pub-time{color: #dd2727;font-size: 20px;}
 
-
-
+/*设置*/
+.set-list{padding: 8px;border-bottom: 1px solid #f0f0f0;text-decoration: none;color: #323232;font-size: 14px;}
+.set-list:hover{text-decoration: none;color: #323232}
+.set-btn{background: #dd2727;color: #fff;margin-top: 25px;font-size: 14px;font-weight: 400;}
+.set-edition{color: #aaa;float: right;}
+.set-angel{font-size: 20px!important;color: #646464}
 
 
 
