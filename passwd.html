@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="x-ua-compatible " content="ie=edge ">
+    <title>忘记密码</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/ionic.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/ionic.bundle.js"></script>
+</head>
+
+<body>
+    <!--导航-->
+    <nav class="navbar navbar-light bg-faded container header">
+        <div class="col-xs-1 icon-logo-box">
+            <a href="#"><img class="icon" src="images/go-back.png"></a>
+        </div>
+        <div class="col-xs-10 header-title">
+            忘记密码
+        </div>
+        <div class="col-xs-1 icon-logo-box">
+        </div>
+    </nav>
+    <!--获取验证码-->
+    <form>
+        <div class="row step1">
+            <div class="col">
+                为了您的账户安全，我们将发送验证码到您的注册手机或邮箱
+            </div>
+        </div>
+        <div class="list step1">
+            <label class="item item-input">
+                <input type="text" placeholder="请输入用户名/手机号/邮箱">
+                <img src="images/icon-close.png" class="step1-clear">
+            </label>
+        </div>
+        <div class="row step1">
+            <div class="col margin-top20">
+                <button class="button button-block login-btn step1-btn login-btn-gray">下一步</button>
+            </div>
+        </div>
+        <div class="list step2">
+            <label class="item item-input">
+                账户:<input type="text">
+                <img src="images/icon-close.png" class="step1-clear">
+            </label>
+        </div>
+        <div class="row step2">
+            <div class="col passwd-tips">
+                请输入<span class="account">123</span>收到的验证码
+            </div>
+        </div>
+        <div class="row step2">
+            <div class="col item item-input">
+                <input type="text">
+            </div>
+            <div class="col">
+                <button class="button button-block login-btn">获取验证码</button>
+            </div>
+        </div>
+        <div class="row step2">
+            <div class="col margin-top20">
+                <button class="button button-block login-btn step2-btn">下一步</button>
+            </div>
+        </div>
+        <div class="list step3">
+            <label class="item item-input">
+                密码:
+                <input type="password">
+                <label class="toggle">
+                    <input type="checkbox">
+                    <div class="track">
+                        <div class="handle"></div>
+                    </div>
+                </label>
+            </label>
+        </div>
+        <div class="row step3">
+            <div class="col margin-top20">
+                <button class="button button-block login-btn step3-btn">下一步</button>
+            </div>
+        </div>
+    </form>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
