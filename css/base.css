@@ -580,9 +580,9 @@ p{margin: 0;}
 .charge-radio{-webkit-appearance:none;width: 14px;height: 14px;border: 1px solid #e0e0e0;background: #fff;border-radius: 10px;}
 .charge-radio:checked{background: url(../images/icon-radio-green.png);background-size: 7px;background-position: center;background-repeat: no-repeat;}
 
-
-
-
+/*兑换积分*/
+.cov-form{border: none;font-size: 14px}
+.cov-form::-webkit-input-placeholder{color: #999;font-size: 14px}
 
 
 
