@@ -622,6 +622,18 @@ p{margin: 0;}
 .passwd-tips{color: #999}
 .login-btn-gray{background-color: #999!important;}
 
+/*密码设置成功*/
+.win-box{text-align: center;margin-top: 50px;color: #323232}
+.win-box img{width: 50px;display: inline-block;line-height: 50px;}
+.win-box span{font-size: 20px;vertical-align: middle;margin-top: -35px;display: inline-block;}
+
+/*个人资料*/
+.user-icon-right{font-size: 10px;}
+.user-header{color: #fff;background-color: #dd2727;}
+.user-header .button{color: #fff;}
+.user-tips{font-size: 14px;color: #999;}
+.user-list{margin-bottom: 0;}
+
 
 
 
