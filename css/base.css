@@ -593,6 +593,17 @@ p{margin: 0;}
 .sign-title{font-size: 16px;color: #323232;font-weight: 600}
 .sign-tips{font-size: 12px;color: #999}
 .sign-angel{width: 9px;}
+.sign-agree{-webkit-appearance:none;width: 14px;height: 14px;border: 1px solid #e0e0e0;background: #fff}
+.sign-agree:checked{background: #dd2727;background-image: url(../images/icon-check.png);background-size: 10px;background-repeat: no-repeat;background-position: center;}
+
+
+
+
+
+
+
+
+
 
 
 
