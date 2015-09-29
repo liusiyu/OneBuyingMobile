@@ -8,10 +8,10 @@
     <meta http-equiv="x-ua-compatible " content="ie=edge ">
     <title>兑换积分</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/bootstrap.css">    
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="css/ionic.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
     <script src="js/ionic.bundle.js"></script>
 </head>
 
@@ -29,40 +29,42 @@
     </nav>
     <!--获取验证码-->
     <form>
-        <div class="list list-inset">
-            <label class="item item-input">
-                <i class="icon ion-search placeholder-icon"></i>
-                <input type="text" placeholder="Search">
-            </label>
+        <div class="row">
+            <div class="col ">
+                <div class="list login-list">
+                    <label class="item item-input">
+                        <img src="images/login-user.png" class="login-user">
+                        <input type="text" placeholder="手机号/邮箱账号">
+                    </label>
+                    <label class="item item-input">
+                        <img src="images/login-passwd.png" class="login-passwd">
+                        <input type="password" placeholder="账号密码">
+                    </label>
+                </div>
+            </div>
         </div>
-        <div class="list">
-            <label class="item item-input">
-                <img src="#" class="login-user">
-                <input type="text">
-            </label>
-            <label class="item item-input">
-                <img src="#" class="login-passwd">
-                <input type="password">
-            </label>
-        </div>
-        <div class="row responsive-sm">
+        <div class="row responsive-sm login-btn-box">
             <div class="col">
                 <button class="button button-block login-btn">登陆</button>
             </div>
             <div class="col">
-                <button class="button button-block">通过手机号注册</button>
+                <button class="button button-block login-sign-btn">通过手机号注册</button>
             </div>
         </div>
-        <div class="row row-bottom responsive-sm">
-            <div class="col col-top">
-                <p class="login-divider">从以下方式登陆</p>
+        <div class="row row-bottom responsive-sm login-bottom-bar">
+            <div class="col col-top login-col">
+                <p class="login-divider"><span>从以下方式登陆</span></p>
             </div>
-            <div class="row">
+            <div class="row login-bottom">
                 <div class="col"></div>
                 <div class="col"></div>
-                <div class="col"><a href="#"><img src="images/login-wechat.png" class="login-tencent"></a></div>
+                <div class="col">
+                    <a href="#"><img src="images/login-wechat.png" class="login-tencent"></a>
+                </div>
                 <div class="col"></div>
-                <div class="col"><a href="#"><img src="images/login-qq.png" class="login-tencent"></a></div>
+                <div class="col">
+                    <a href="#"><img src="images/login-qq.png" class="login-tencent"></a>
+                </div>
                 <div class="col"></div>
                 <div class="col"></div>
             </div>
